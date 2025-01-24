@@ -1,5 +1,5 @@
 # 💳 Card Data Analyzing: 광고 노출 최적화 프로젝트
-| **Install ELK in ubuntu and practice ELK using Woori card data**
+| **Ubuntu에서의 ELK Stack 설치 및 실 금융 데이터를 기반한 Kibana 시각화**
 <br></br>
 
 ## 👨‍👨‍👦‍👦 Team
