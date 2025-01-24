@@ -32,17 +32,20 @@
 </br>
 
 ### 2. 채널 맞춤 광고 전략
-<img src="https://github.com/user-attachments/assets/e323f995-9a3e-4d32-9a91-ec7e53525baf" width="600">
+<img src="https://github.com/user-attachments/assets/e323f995-9a3e-4d32-9a91-ec7e53525baf" width="500">
 
 </br>
 
 ## 📊 인프라 및 아키텍처
 ### ELK 스택 구축
-<img src="./img/architecture.png" width="600">
+<img src="./img/architecture.png" width="500">
 
 ## 🛠 주요 기술
-- 데이터 분석 프로세스
-<img src="https://github.com/user-attachments/assets/b9177b73-ba55-47a7-b4ca-03b1750148c8" width="600">
+<img src="https://github.com/user-attachments/assets/b9177b73-ba55-47a7-b4ca-03b1750148c8" width="500">
+
+<br></br>
+<br></br>
+<br></br>
 
 # 📊 우리카드 소비 데이터 분석 인사이트
 
@@ -53,12 +56,13 @@
 1. 나이별 소비 패턴
 2. 지역별 소비 트렌드 
 3. 라이프스테이지별 소비 특성
+<br>
 
 ## 2. 데이터 인사이트 상세
 
 ### 2.1 나이별 소비 분석
 #### 연령대별 주요 소비 분야
-<img src="https://github.com/user-attachments/assets/9b538d23-7e8c-4c7e-b57a-438a0c02b08b" width="550">
+<img src="https://github.com/user-attachments/assets/9b538d23-7e8c-4c7e-b57a-438a0c02b08b" width="500">
 
 |     | 20대                              | 30대                              | 40대                              | 50대                              | 60대 이상                         |
 |----------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
@@ -113,7 +117,9 @@
 <img src="https://github.com/user-attachments/assets/4b90c630-7032-4f13-bffd-ed5e680adc63" width="550">
 
 ## 💡 4. 기대 효과
-- 타겟팅 정확도 향상
-- 고객 경험 최적화
-- 광고 효율성 증대
-- 데이터 기반 마케팅 전략 수립
+
+>  카드 소비 데이터를 분석하여 비대면 모바일 채널에서 광고 노출 유형을 최적화함으로써 고객 소비를 증대시키고 이를 기반으로 수익 창출을 도모합니다.  
+>  이 과정에서 타겟팅 정확도를 높이고, 고객 경험을 최적화하
+> 프로젝트를 통해 데이터 기반 마케팅 전략을 효과적으로 수립할 수 있었으며,실 사용 데이터를 활용하여 목표 정확도를 더욱 향상시켰으며
+이를 바탕으로 광고 효율성 또한 크게 증대시킬 수 있습니다.
+
