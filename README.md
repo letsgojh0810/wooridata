@@ -43,15 +43,15 @@
 ## 🛠 주요 기술
 <img src="https://github.com/user-attachments/assets/b9177b73-ba55-47a7-b4ca-03b1750148c8" width="500">
 
-<br></br>
-<br></br>
-<br></br>
-
 Linux에 ELK를 설치하고 기본 세팅을 진행하며 기술한 내용은 다음 링크에 있습니다. </br>
 [기술 내용 보러가기](./setting/README.md)
 
 - 데이터 분석 프로세스
 <img src="https://github.com/user-attachments/assets/b9177b73-ba55-47a7-b4ca-03b1750148c8" width="600">
+
+
+<br></br>
+<br></br>
 
 # 📊 우리카드 소비 데이터 분석 인사이트
 
