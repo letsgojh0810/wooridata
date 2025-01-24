@@ -96,7 +96,8 @@
 | 제주 | - 관광/여행 관련 소비 |
 
 ### 3.3 라이프스테이지별 소비 특성
-<img src="https://github.com/user-attachments/assets/e832b7c2-3278-445a-af42-d6a3f321dcde" width="500">
+![image](https://github.com/user-attachments/assets/5ed5662b-b302-4d2d-b8ce-9bab1e06f77f)
+
 
 ## 라이프스테이지별 소비 특성 분석
 
@@ -116,7 +117,8 @@
 <img src="https://github.com/user-attachments/assets/22a3d241-29ec-43df-8ea9-a67ab2022a71" alt="지역별 가입 여부" width="500">
 
 ## 라이프스타일별 가입 여부
-<img src="https://github.com/user-attachments/assets/d9502fb5-3a85-4ede-bcf1-bd1b25832e98" alt="라이프스타일별 가입 여부" width="500">
+![image](https://github.com/user-attachments/assets/d966f1f1-1c95-42fc-92a8-2ca40a370a8c)
+
 
 
 
