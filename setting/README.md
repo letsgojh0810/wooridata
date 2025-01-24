@@ -136,4 +136,80 @@ discovery.type : single-node
 <p></p>
   <span style="color: orange; font-szie: 14px; font-weight: bold"> -> 개발/테스트 환경에서는 single-node로 설정하는 것이 필수</span>
 </details>
+<br>
+<details>
+  <summary><span style="font-size: 16px; font-weight: bold;">&nbsp[문제 3] Kibana Scripted Field 추가 중 오류 발생 </span></summary>
+  <br>
+  
+  ![image](https://github.com/user-attachments/assets/2015487e-8c25-4b24-97a4-689be7442d55)
+  
+  <br>
+  
+  데이터의 구분값들이 영어인 것이 직관성이 떨어진다고 판단했고 한글로 변환하기 위해 Scripted Field 를 추가하는 방법을 모색하였고
+  아래에 사진과 방법을 첨부.
+  
+  <br>
+  
+  ![image](https://github.com/user-attachments/assets/7cfcb033-4fcc-4058-ae9f-8eafca83aca1)
+  
+  <br>
+  
+  * Scripted Field 생성 과정
+      Kibana에서 Scripted Field 생성
+      Stack Management로 이동
+      Kibana 상단의 메뉴에서Stack Management 로 진입
 
+      Index Patterns 선택
+      좌측 메뉴에서 Index Patterns 을 클릭한 뒤, Scripted Field를 추가할 Index Pattern을 선택
+
+      Scripted Field 추가
+
+      Index Pattern 페이지에서 Scripted Fields 탭을 선택
+      Add scripted field 버튼을 클릭하여 새 Scripted Field를 추가
+      
+      <br>
+      
+      ![image](https://github.com/user-attachments/assets/13089f4a-f9ba-498f-83a7-0e18df3abca8)
+
+      
+      <br>
+      
+      필드 설정
+
+      Name: Scripted Field의 이름을 지정
+    
+      <br>
+      
+      Language: Script 언어로 일반적으로 Painless를 선택
+    
+      <br>
+      
+      Type: 출력할 데이터 유형을 설정
+    
+      <br>
+      
+      Script: 데이터를 가공할 스크립트를 작성
+
+      <br>
+  
+      ![image](https://github.com/user-attachments/assets/d28f730e-ac9e-4bd0-a780-a0239bf02f43)
+
+      <br>
+  
+      Script 란에 아래와 같은 코드를 작성했으나 데이터가 전부 Unknown 으로 들어가는 오류가 발생
+    
+      ![image](https://github.com/user-attachments/assets/81e3b6b1-cecf-42b1-b6dc-fb4f9b569b81)
+
+      ![image](https://github.com/user-attachments/assets/2e519076-2d22-47b5-98b4-def03b06cbfb)
+
+      원인 : 데이터의 타입이 keyword 가 아니었기 때문에 오류 발생
+    
+      해결방법 : 아래와 같이 코드 수정
+
+      ![image](https://github.com/user-attachments/assets/058e61cf-209a-4a12-95dc-43fc417bacb5)
+
+      <br>
+
+  
+
+</details>
