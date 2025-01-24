@@ -70,18 +70,20 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <p></p>
 
 ### 3. 포트 포워딩 🔌
+<br>
+<br>
+
 - ubuntu에서 해당 포트에 대해 모두 포워딩 설정
-<br>
-<br>
 <img src="./img/port.png" alt="Port Image" width="500"/>
 <br>
 <br>
 <p></p>
 
 ### 4. 정상 실행 확인 🚀
+<br>
+<br>
+
 - elastic search 확인
-<br>
-<br>
 <img src="./img/es.png" alt="es Image" width="500"/>
 <br>
 <br>
@@ -97,6 +99,8 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <br>
 
 ### 5. Trouble Shooting 💥
+<br>
+<br>
 <details>
   <summary><span style="font-size: 18px;">문제 1: IP 와 port도 모두 열어줬지만 ES가 실행이 되지 않음을 확인</span></summary>
   해결 방법: 시스템 로그 확인 후, Logstash 설정 파일 오류 수정
