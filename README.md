@@ -89,8 +89,7 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <p></p>
 
 ### 4. 정상 실행 확인 🚀
-<br>
-<br>
+<br></br>
 
 - elastic search 확인
 <img src="./img/es.png" alt="es Image" width="500"/>
