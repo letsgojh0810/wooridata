@@ -103,18 +103,44 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <br>
 <br>
 <details>
-  <summary><span style="font-size: 18px;">문제 1: IP 와 port도 모두 열어줬지만 ES가 실행이 되지 않음을 확인</span></summary>
-  해결 방법: 시스템 로그 확인 후, Logstash 설정 파일 오류 수정
-</details>
+  <summary><span style="font-size: 16px; font-weight: bold;">&nbsp[문제 1]  Ubuntu RAM 메모리 부족 문제</span></summary>
+  <br>
+  
+  - ELK 를 설치하는 중 free -h를 확인해보니 메모리가 부족한 것을 확인
+  <br>
 
-<details>
-  <summary><span style="font-size: 18px;">문제 2: Elasticsearch 연결 오류</span></summary>
-  해결 방법: Elasticsearch와 Logstash의 네트워크 설정 확인
-</details>
+  - 해결 방법 : Swap Memory 공간 확장
+```bash
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
 
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+![swap Image](./img/swap.png)
+<p></p>
+  <span style="color: orange; font-szie: 14px; font-weight: bold"> -> 정상적으로 2GB 설정된 것을 확인 </span>
+
+</details>
+<br>
 <details>
-  <summary><span style="font-size: 18px;">문제 3: Logstash 필터 오류</span></summary>
-  해결 방법: 필터 구문 오류를 수정하고, 로그를 다시 확인
+  <summary><span style="font-size: 16px; font-weight: bold;">&nbsp[문제 2] IP 와 port도 모두 열어줬지만 ES가 실행 되지 않는 문제</span></summary>
+  <br>
+
+  - 해결 방법 : elasticsearch.yml 파일에 single node 옵션 추가
+```yml
+# --------------------------------- Discovery ----------------------------------
+#
+# Pass an initial list of hosts to perform discovery when this node is started:
+# The default list of hosts is ["127.0.0.1", "[::1]"]
+#
+#discovery.seed_hosts: ["host1", "host2"]
+discovery.type : single-node
+```
+💡 단일 노드 모드에서 ES를 실행하려면, 클러스터 구성을 비활성화하고 단일 노드 로 설정해야함. yml 파일에서 discovery.type : single-node로 설정해야 ES는 클러스터 구성을 시도하지 않고 단일 노드로만 동작하게 됨.
+<p></p>
+  <span style="color: orange; font-szie: 14px; font-weight: bold"> -> 개발/테스트 환경에서는 single-node로 설정하는 것이 필수</span>
 </details>
 
 
