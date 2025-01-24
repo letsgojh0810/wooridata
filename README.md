@@ -38,12 +38,20 @@
 - 인사이트 도출
 </br>
 
-## ⚙️ How to install ELK in ubuntu
-<p></p>
-<p></p>
+
+## 👨‍👨‍👦‍👦 Team
+
+👥 팀명 : 구구구칠
+
+|<img src="https://avatars.githubusercontent.com/u/87555330?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/55776421?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/71498489?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/82265395?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|
+|김민성<br/>[@minsung159357](https://github.com/minsung159357)|SeulGi_LEE<br/>[@seulg2027](https://github.com/seulg2027)|HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|구민지<br/>[@minjee83](https://github.com/minjee83)|
 
 
 ## 📝 상세 가이드
+## ⚙️ How to install ELK in ubuntu
+<p></p>
+<p></p>
 ### 1. Install ELK ⬇️
 ```bash
 -- Elastic Search Install
@@ -119,7 +127,10 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <p></p>
 
 ### 4. 정상 실행 확인 🚀
-<br>
+
+</br>
+</br>
+
 
 - elastic search 확인
 <img src="./img/es.png" alt="es Image" width="500"/>
