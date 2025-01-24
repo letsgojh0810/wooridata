@@ -38,6 +38,7 @@ sudo apt update
 sudo apt install kibana=7.17.10 -y
 ```
 <p></p>
+<br></br>
 
 ### 2. Elasticsearch, Kibana yml 설정 ⚙️
 
@@ -70,8 +71,7 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <p></p>
 
 ### 3. 포트 포워딩 🔌
-<br>
-<br>
+<br></br>
 
 - ubuntu에서 해당 포트에 대해 모두 포워딩 설정
 <img src="./img/port.png" alt="Port Image" width="500"/>
@@ -87,6 +87,7 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <img src="./img/es.png" alt="es Image" width="500"/>
 <br>
 <br>
+
 - Kibana 확인
 <br>
 <br>
