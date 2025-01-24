@@ -3,7 +3,7 @@
 <br></br>
 
 ## ⚙️ How to install ELK in ubuntu
-
+<p></p>
 <p></p>
 
 ### 1. Install ELK ⬇️
@@ -89,7 +89,6 @@ elasticsearch.hosts: ["http://localhost:9200"]
 <br>
 
 - Kibana 확인
-<br>
 <br>
 <img src="./img/kibana.png" alt="Kibana Image" width="500"/>
 <br>
