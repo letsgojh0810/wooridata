@@ -111,16 +111,21 @@
 
 ### 3.4 비대면 채널 가입 여부
 ## 나이별 가입 여부
-<img src="https://github.com/user-attachments/assets/10911534-f130-4645-8196-ee58dedb8d00" alt="나이별 가입 여부" width="500">
+<img src="https://github.com/user-attachments/assets/10911534-f130-4645-8196-ee58dedb8d00" alt="나이별 가입 여부" width="500"><br/>
+
+> 25 ~ 35살이 비대면 채널을 가장 많이 가입했고, 50대 이후로 미가입율이 상승하는 것을 알 수 있다. <br>
 
 ## 지역별 가입 여부
-<img src="https://github.com/user-attachments/assets/22a3d241-29ec-43df-8ea9-a67ab2022a71" alt="지역별 가입 여부" width="500">
+<img src="./img/place_result.png" alt="지역별 가입 여부" width="500"><br>
+
+> 충남, 경북, 부산 지역에 거주하는 사람들은 비대면 채널을 덜 가입했고, 대전, 울산 지역에 거주하는 사람들은 가입율이 높았다. <br>
 
 ## 라이프스타일별 가입 여부
 ![image](https://github.com/user-attachments/assets/d966f1f1-1c95-42fc-92a8-2ca40a370a8c)
 
 
 
+📢 50대 이전이고, 가입율이 높은 지역에 거주하는 사람들에게는 앱 푸시로 광고를 노출한다. 반대로, 50대 이후이며 가입율이 낮은 지역에 거주하는 사람들에게는 문자로 광고를 노출한다.
 
 ## 4. 마케팅 전략 제안
 
