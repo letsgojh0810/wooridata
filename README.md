@@ -69,9 +69,10 @@ server.host: 0.0.0.0
 elasticsearch.hosts: ["http://localhost:9200"]
 ```
 <p></p>
+<br></br>
 
 ### 3. 포트 포워딩 🔌
-<br></br>
+
 
 - ubuntu에서 해당 포트에 대해 모두 포워딩 설정
 <img src="./img/port.png" alt="Port Image" width="500"/>
