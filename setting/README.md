@@ -74,14 +74,11 @@ elasticsearch.hosts: ["http://localhost:9200"]
 - ubuntu에서 해당 포트에 대해 모두 포워딩 설정
 <img src="../img/port.png" alt="Port Image" width="500"/>
 <br>
-<br>
-<p></p>
+
 
 ### 4. 정상 실행 확인 🚀
-
+<br>
 </br>
-</br>
-
 
 - elastic search 확인
 <img src="../img/es.png" alt="es Image" width="500"/>
